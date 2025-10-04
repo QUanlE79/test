@@ -23,7 +23,8 @@ body::before {
 }
 
 .container {
-    width: 800px;
+    max-width: 800px;
+    height: fit-content;
     margin: 20px auto;
     padding: 20px;
     background: rgba(0, 0, 0, 0.6);
